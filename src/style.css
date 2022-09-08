@@ -1,0 +1,35 @@
+.container{
+    border: 3px solid black;
+    margin-top: 10%;
+}
+.data {
+    padding-left: 10%;
+    font-size:x-large;
+}
+#id{
+    margin-left: 5%;
+    margin-bottom:2%;
+    
+}
+#name{
+    margin-left: 2.6%;
+    margin-bottom:2%;
+}
+#price{
+    margin-left:3%;
+    margin-bottom:2%;
+}
+#tbl{
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+#tbl tr th{
+    padding-left: 5%;
+    margin-left: 5%;
+}
+button{
+    font-size: large;
+    height: 7vh;
+    width: 30vh;
+}
