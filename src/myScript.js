@@ -20,7 +20,9 @@ btnAdd.addEventListener('click', () =>{
     let id = idInput.value;
     let name = nameInput.value;
     let price = priceInput.value;
-
+    if(id==""|| name=="" || price==""){
+        alert("Enter Values");
+    }
     let template = `<tr>
         <td>${id}</td>
         <td>${name}</td>
